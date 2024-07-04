@@ -1,0 +1,17 @@
+name: cse599n
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  # - cudatoolkit=11.3
+  - pytorch=1.12.1
+  - numpy=1.23.3
+  - scipy=1.9.3
+  - matplotlib=3.6
+  - torchvision
+  - torchaudio
+  # - notebook
+  # - nb_conda_kernels
+  # - jupyter_contrib_nbextensions
+  - pip
